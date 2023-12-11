@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .nav-wrapper {
@@ -10,16 +11,26 @@
     justify-content: space-between;
 }
 
+    /*nav bar list start*/
+
 .nav-wrapper ul.nav-list {
     list-style-type: none;
     display: flex;
     align-items: center;
-    margin: 0 20px 0;
+    margin: 20px 50px 0;
+    color: rgb(3, 3, 141);
 }
 
 .nav-wrapper ul.nav-list li {
     padding: 0 10px 0;
 }
+
+.nav-wrapper ul.nav-list li:hover {
+    border-bottom: 5px solid rgb(3, 3, 141);
+    border-radius: 5px;
+}
+
+/*navbat list end*/
 
 .nav-wrapper .brand {
     height: 50px;
@@ -32,12 +43,14 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin: 0 20px 0;
+    margin: 20px 50px 0;
+    
 }
 
 .nav-wrapper .login-signup a{
     text-decoration: none;
     margin: 0 5px 0;
+    color: rgb(3, 3, 141);
 }
 
 .nav-wrapper .login-signup a.splitor {
