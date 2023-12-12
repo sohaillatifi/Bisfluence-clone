@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
     /*nav bar list start*/
@@ -59,3 +60,63 @@
 }
 
 /* login and signup part is finished*/
+
+/* part two start*/
+
+.part2{
+    display: flex;
+    flex-direction: row;
+    background-color: #3f89d3;
+    color: rgb(255, 255, 255);
+}
+
+.roket img{
+    margin-left: 150px;
+    height: 600px;
+    padding-top: 50px;
+}
+
+
+.c-name, .right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c-name{
+    justify-content: flex-start;
+    margin: 70px 80px 20px;
+}
+
+.c-name h1{
+    font-size: 70px;
+}
+
+.c-name p{
+    font-size: 20px;
+    font-family:Courier New;
+    margin-left: 35px;
+}
+
+.right-side{
+    margin-left: -200px;
+    margin-right: 100px;
+    margin-top: 80px;
+    line-height: 1.4;
+}
+
+.right-side h2{
+    font-size: 50px;
+}
+
+.right-side h3{
+    font-family:Courier New;
+    font-size: 20px;
+}
+
+.right-side p{
+    font-family:Courier New;
+    font-size: 20px;
+}
+
+/* part two is finished*/
