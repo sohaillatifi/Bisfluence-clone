@@ -22,8 +22,9 @@
     color: rgb(3, 3, 141);
 }
 
-.nav-wrapper ul.nav-list li {
+.nav-wrapper ul.nav-list li a{
     padding: 0 10px 0;
+    text-decoration: none;
 }
 
 .nav-wrapper ul.nav-list li:hover {
@@ -120,3 +121,54 @@
 }
 
 /* part two is finished*/
+
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+
+    
+    .nav-wrapper ul.nav-list{
+        background-color: black;
+        display: none;
+    }
+
+    .nav-wrapper .login-signup{
+        display: none;
+    }
+
+    .nav-wrapper .brand{
+        margin-right: 10px;
+    }
+
+                                /* class hamburger starts*/
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
+    .hamburger span {
+        background: black;
+        width: 38px;
+        height: 5px;
+        margin-bottom: 8px;
+    }
+
+
+    .hamburger span {
+        transform-origin: left;
+        transition: all .3s ease-in-out;
+    }
+
+
+
+                            /*class hamburger finished */
+    
+}
+
+/* login and signup part is finished*/
