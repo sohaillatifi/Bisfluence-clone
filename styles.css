@@ -102,13 +102,6 @@
         transition: all .3s ease-in-out;
     }
 
-    .wrapper .nav-wrapper ul.nav-list.open{
-        opacity: 1;
-        pointer-events: auto; 
-        background: blue; 
-        max-height: 600px;
-        display: block;
-    }
 
 
                             /*class hamburger finished */
