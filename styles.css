@@ -86,7 +86,7 @@
 
 .c-name{
     justify-content: flex-start;
-    margin: 70px 80px 20px;
+    margin: 40px 80px 40px;
 }
 
 .c-name h1{
@@ -100,10 +100,9 @@
 }
 
 .right-side{
-    margin-left: -200px;
-    margin-right: 100px;
-    margin-top: 80px;
     line-height: 1.4;
+    margin-top:150px;
+    margin-left: -250px;
 }
 
 .right-side h2{
@@ -165,10 +164,63 @@
         transition: all .3s ease-in-out;
     }
 
-
-
                             /*class hamburger finished */
-    
+
+    .part2{
+        display: flex;
+        flex-direction: column;
+        background-color: #3f89d3;
+        color: rgb(255, 255, 255);
+    }
+
+    .roket{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 150px;
+    }
+
+    .c-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
 }
 
-/* login and signup part is finished*/
+@media screen and (max-width:1400px){
+    
+    .c-name{
+        margin-bottom: 500px;
+    }
+    .right-side {
+        margin-top: 160px;
+        margin-left: -400px;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+ 
+    .part2{
+        display: flex;
+        flex-direction: column;
+        background-color: #3f89d3;
+        color: rgb(255, 255, 255);
+    }
+
+    .roket{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 150px;
+    }
+    .c-name {
+        align-items: center;
+    }
+    .right-side{
+        margin:-450px 50px 50px 50px ;
+    }
+
+}
+
