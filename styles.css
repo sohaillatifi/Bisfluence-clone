@@ -125,6 +125,7 @@
 .part3 {
     background-color: rgb(0, 66, 136);
     display: flex;
+    justify-content: space-between;
     padding: 80px;
 }
 
@@ -190,19 +191,95 @@
     margin-left: 60px;
 }
 
+                            /* part4*/
+.part4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 66, 136);
+}
+
+.part4 h1{
+    margin-left: 150px;
+    color: white;
+}
+
+.part4 .more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 150px 30px;
+    padding: 20px 50px 20px;
+    border: 1px solid black;
+    border-radius:30px ;
+    background-color: white;
+    
+}
+
+.info {
+    text-align: center;
+    height: 200px;
+    line-height: 1.5;
+    width: 200px;
+    padding: 5px 7px 5px;
+}
+
+
+.info i{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(33, 130, 234);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    margin: 10px  60px 10px;
+}
+
+
+
+.info:hover{
+    background-color: rgb(33, 130, 234);
+    height: 260px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+    padding-top: 20px;
+    color: white;
+    border-radius: 0 0 30px 30px;
+    border: 5px solid white;
+}
+
+.info:hover i{
+    background-color: white;
+    color: rgb(33, 130, 234);
+}
+
+.info:hover button{
+    display: block;
+    margin: 20px 40px 20px ;
+}
+
+.info button{
+    display: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: rgb(76, 76, 255);
+
+}
+.info button a{
+    text-decoration: none;
+}
+
+
 
                             /*Responsive of pages*/
 
-@media screen and (max-width:1250px){
-    .part3{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
 @media screen and (max-width:1400px){
-    
+
     .c-name{
         margin-bottom: 500px;
     }
@@ -212,6 +289,35 @@
     }
 
 }
+
+@media screen and (max-width:1250px){
+    .part3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .part4 .more{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px; 
+    }
+    .info:hover{
+        background-color: rgb(33, 130, 234);
+        height: 260px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        color: white;
+        border-radius: 0 0 30px 30px;
+        border: 5px solid white;
+    }
+}
+
 
 @media screen and (max-width:1000px){
  
